@@ -14,6 +14,7 @@
 package ru.khrisanfova.gate.client.api;
 
 import org.junit.jupiter.api.Test;
+import ru.khrisanfova.gate.client.model.StudentDataResponse;
 
 /**
  * Model tests for StudentDataResponse

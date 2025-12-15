@@ -3,6 +3,7 @@ package ru.khrisanfova.gate.client.api;
 import ru.khrisanfova.gate.client.ApiClient;
 import org.testng.annotations.Test;
 import org.junit.jupiter.api.BeforeEach;
+import ru.khrisanfova.gate.client.model.StudentDataCreateRequest;
 
 /**
  * API tests for StudentDataApi

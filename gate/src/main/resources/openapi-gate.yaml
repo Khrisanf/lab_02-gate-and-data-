@@ -31,6 +31,30 @@ paths:
               schema:
                 $ref: '#/components/schemas/StudentGateResponse'
 
+  /api/students/{id}:
+    get:
+      tags:
+        - studentGate
+      operationId: getStudentById
+      summary: Получить данные студента по ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StudentGateResponse'
+        '404':
+          description: Student not found
+
+
 components:
   schemas:
     StudentGateCreateRequest:
