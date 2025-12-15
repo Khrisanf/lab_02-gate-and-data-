@@ -1,0 +1,5 @@
+ru\khrisanfova\data\api\StudentDataApi.class
+ru\khrisanfova\data\model\StudentDataResponse.class
+ru\khrisanfova\data\model\StudentDataCreateRequest.class
+ru\khrisanfova\dataservice\DataServiceApplication.class
+ru\khrisanfova\data\api\ApiUtil.class

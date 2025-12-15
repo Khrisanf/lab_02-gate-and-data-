@@ -1,0 +1,7 @@
+.openapi-generator-ignore
+README.md
+pom.xml
+src/main/java/ru/khrisanfova/data/api/ApiUtil.java
+src/main/java/ru/khrisanfova/data/api/StudentDataApi.java
+src/main/java/ru/khrisanfova/data/model/StudentDataCreateRequest.java
+src/main/java/ru/khrisanfova/data/model/StudentDataResponse.java
